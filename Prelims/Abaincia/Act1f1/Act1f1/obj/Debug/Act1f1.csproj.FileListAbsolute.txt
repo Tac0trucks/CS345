@@ -1,0 +1,10 @@
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\bin\Debug\Act1f1.exe.config
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\bin\Debug\Act1f1.exe
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\bin\Debug\Act1f1.pdb
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.csproj.AssemblyReference.cache
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.Form1.resources
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.Properties.Resources.resources
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.csproj.GenerateResource.cache
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.csproj.CoreCompileInputs.cache
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.exe
+D:\3rd Year\1st Sem\CS365\Prelims\Act1f1\Act1f1\obj\Debug\Act1f1.pdb
