@@ -1,26 +1,79 @@
-ImageProcessing
-A small Windows Forms image-processing demo that provides basic digital image processing (DIP) operations on loaded images. Built as a midterm project using .NET Framework 4.7.2.
-Features
-•	Open and save images (File > Open, File > Save)
-•	DIP operations (DIP menu):
-•	Pixel Copy — copy pixels between images
-•	Greyscaling — convert image to grayscale
-•	Inversion — invert image colors
-•	Mirror Horizontal — flip image horizontally
-•	Mirror Vertical — flip image vertically
-•	Simple dual PictureBox UI: original image and processed result
-Getting started
-1.	Open the solution in Visual Studio: Midterm/ImageProcessing/ImageProcessing.slnx
-2.	Restore NuGet packages (if any) and build the solution. Target framework: .NET Framework 4.7.2.
-3.	Run the project (F5). The application window provides menus for loading, processing, and saving images.
-Usage
-•	Load an image via File > Open.
-•	Choose a processing operation under DIP. The processed output appears in the second PictureBox.
-•	Save the processed image via File > Save.
-Project structure (important files)
-•	Form1.cs / Form1.Designer.cs — main WinForms UI and event handlers
-•	ImageProcessing.slnx — solution file
-Notes
-•	Windows-only WinForms application.
-•	No external dependencies required beyond the .NET Framework target.
-•	Intended for educational/demonstration use.
+# ImageProcessing
+
+A lightweight Windows Forms desktop application demonstrating foundational Digital Image Processing (DIP) techniques on loaded bitmaps. Developed as a midterm project targeting **.NET Framework 4.7.2**.
+
+---
+
+## Features
+
+* **File Operations**
+* **Open**: Load bitmap and common image formats into the source viewport.
+* **Save**: Export the processed result to disk.
+
+
+* **Digital Image Processing (DIP)**
+* **Pixel Copy**: Directly clone pixel buffers from source to target.
+* **Grayscale**: Convert full-color RGB channels into balanced grayscale luminance.
+* **Inversion**: Invert color values across all active color channels.
+* **Mirror Horizontal**: Reflect the image along the vertical axis.
+* **Mirror Vertical**: Reflect the image along the horizontal axis.
+
+
+* **Dual Viewport Interface**: Side-by-side `PictureBox` layout providing immediate visual comparison between the original input and the processed output.
+
+---
+
+## Prerequisites
+
+* **OS**: Windows 10 / 11
+* **IDE**: Visual Studio 2022 (with the **.NET desktop development** workload installed)
+* **Runtime / SDK**: .NET Framework 4.7.2 Developer Pack
+
+---
+
+## Getting Started
+
+1. **Clone or Download** the repository to your local machine.
+2. **Open the Solution**:
+* Double-click `ImageProcessing.sln` (or `ImageProcessing.slnx`) inside Visual Studio.
+
+
+3. **Build the Solution**:
+* Press `Ctrl + Shift + B` (or select **Build > Build Solution** from the top menu).
+
+
+4. **Run the Project**:
+* Press `F5` to start debugging, or `Ctrl + F5` to run without debugging.
+
+
+
+---
+
+## Usage Guide
+
+1. **Load Image**: Click **File > Open** and select an image file (`.png`, `.jpg`, `.bmp`). The image will render in the left viewport.
+2. **Apply Filter**: Navigate to the **DIP** menu and click your desired operation (e.g., *Inversion*, *Greyscaling*). The transformed result will immediately appear in the right viewport.
+3. **Export Result**: Select **File > Save** to save the processed output image to your machine.
+
+---
+
+## Project Structure
+
+```text
+ImageProcessing/
+├── Form1.cs            # Core DIP algorithms and UI event handling
+├── Form1.Designer.cs   # Windows Forms Designer auto-generated definitions
+├── Form1.resx          # Form resource mapping
+├── Program.cs          # Application entry point
+├── App.config          # Application runtime configuration
+└── ImageProcessing.sln # Visual Studio Solution file
+
+```
+
+---
+
+## Notes
+
+* **Windows Exclusive**: Relies on `System.Windows.Forms` and GDI+ rendering (`System.Drawing`), which run natively on Windows.
+* **Zero External Dependencies**: Built entirely using native .NET Framework base classes; no third-party libraries required.
+* **Academic Scope**: Created for educational purposes to demonstrate manual raster array manipulation and basic image processing concepts.
