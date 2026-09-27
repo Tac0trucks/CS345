@@ -1,6 +1,6 @@
 # ImageProcessing
 
-A lightweight Windows Forms desktop application demonstrating foundational Digital Image Processing (DIP) techniques on loaded bitmaps. Developed as a midterm project targeting **.NET Framework 4.7.2**.
+A lightweight Windows Forms desktop application demonstrating foundational Digital Image Processing (DIP) techniques on loaded bitmaps. Developed as a midterm project targeting **.NET Framework 4.8**.
 
 ---
 
@@ -27,7 +27,7 @@ A lightweight Windows Forms desktop application demonstrating foundational Digit
 
 * **OS**: Windows 10 / 11
 * **IDE**: Visual Studio 2022 (with the **.NET desktop development** workload installed)
-* **Runtime / SDK**: .NET Framework 4.7.2 Developer Pack
+* **Runtime / SDK**: .NET Framework 4.8 Developer Pack
 
 ---
 
