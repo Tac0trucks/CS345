@@ -1,0 +1,14 @@
+git ## Visual Studio temporary and cache files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio auto-generated folders
+AppPackages/
+_UpgradeReport_Files/
