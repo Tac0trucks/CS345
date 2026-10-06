@@ -154,8 +154,8 @@ namespace Act2Search
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            RunBFS(new Node(0, 0), new Node(4, 4));
-            
+            RunBFS(new Node(2, 3), new Node(8, 6));
+
         }
 
         private void pictureBox1_Paint(object sender, PaintEventArgs e)
@@ -223,7 +223,7 @@ namespace Act2Search
 
         private void button3_Click(object sender, EventArgs e)
         {
-            runDFS(new Node(0, 0), new Node(4, 4));
+            runDFS(new Node(2, 3), new Node(8, 6));
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
