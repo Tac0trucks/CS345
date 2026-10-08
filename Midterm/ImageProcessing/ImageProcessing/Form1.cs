@@ -87,6 +87,9 @@ namespace ImageProcessing
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
+            if (loaded == null)
+                return;
+
             BasicDIP.Brightness(ref loaded, ref processed, trackBar1.Value);
             pictureBox2.Image = processed;
         }
@@ -185,6 +188,11 @@ namespace ImageProcessing
 
             BitmapFilter.GrayScale(b);
             pictureBox2.Image = b;
+        }
+
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
+
         }
 
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
